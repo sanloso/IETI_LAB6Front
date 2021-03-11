@@ -15,8 +15,8 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_TASKPLANNER_3D775 }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_STASKPLANNER }}'
           channelId: live
-          projectId: taskplanner-3d775
+          projectId: staskplanner
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels

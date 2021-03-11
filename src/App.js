@@ -16,7 +16,7 @@ class App extends Component {
           .then(response => response.json())
           .then(data => {
               let userList = [];
-              data.items.forEach(function (user) {
+              data.forEach(function (user) {
                   userList.push({user})
 
               });
