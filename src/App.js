@@ -12,7 +12,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-      fetch('https://52.254.103.29:8080/users/find')
+      fetch('https://52.232.228.201:8080/users/find')
           .then(response => response.json())
           .then(data => {
               let userList = [];
